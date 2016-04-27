@@ -9,12 +9,13 @@ This application supports the Getting Started with Node on Heroku article - chec
 Running Locally
 
 Make sure you have Node.js and the Heroku Toolbelt installed.
-
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+<code>
+$ git clone https://github.com/Deepakpatelglobussoft/Facebook_chat_bot.git
+# or clone your own fork
+$ cd Facebook_chat_bot
 $ npm install
 $ npm start
-
+</code>
 Your app should now be running on localhost:5000.
 Deploying to Heroku
 
