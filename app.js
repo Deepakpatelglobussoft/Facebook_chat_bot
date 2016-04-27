@@ -18,7 +18,6 @@ app.get('/', function (req, res) {
 })
 
 app.post('/webhook/', function (req, res) {
-        console.log((req.headers['x-forwarded-for'] || '').split(',')[0]|| req.connection.remoteAddress);
 
     messaging_events = req.body.entry[0].messaging
     for (i = 0; i < messaging_events.length; i++) {
